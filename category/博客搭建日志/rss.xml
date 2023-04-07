@@ -23,8 +23,8 @@
 &lt;p&gt;第二步，git 环境搭建&lt;/p&gt;
 &lt;p&gt;到 Git 官网下载，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZGhuZHp3eGoudG9wL2xvY2FsX2ZpbGUvR2l0LTIuMzMuMS02NC1iaXQuZXhl&#34;&gt;下载地址&lt;/span&gt;，一步一步进行安装。如下图 (仅展示需要提示的部分，基本上选择默认选项即可)&lt;/p&gt;
 &lt;p&gt;&amp;lt;td&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;p&amp;gt;!()[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zMS52aWthLmNuL3NwYWNlLzIwMjMvMDMvMTgvYTllYzAwMzg3ZjZjNGI2MjgzM2FmNDYyZWQ5OTc3MjU=&#34;&gt;https://s1.vika.cn/space/2023/03/18/a9ec00387f6c4b62833af462ed997725&lt;/span&gt;]&amp;lt;p/&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;p&amp;gt;!()[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zMS52aWthLmNuL3NwYWNlLzIwMjMvMDMvMTgvYmJlY2ZkYjA4MGVjNDIzYWE4N2ZlNzJjMTVlMGVlZmY=&#34;&gt;https://s1.vika.cn/space/2023/03/18/bbecfdb080ec423aa87fe72c15e0eeff&lt;/span&gt;]&amp;lt;p/&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;p&amp;gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/18/a9ec00387f6c4b62833af462ed997725&#34; alt=&#34;&#34; /&gt;&amp;lt;p/&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;p&amp;gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/18/bbecfdb080ec423aa87fe72c15e0eeff&#34; alt=&#34;&#34; /&gt;&amp;lt;p/&amp;gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;/td&amp;gt;&lt;/p&gt;
 &lt;h4 id=&#34;3-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-hexo&#34;&gt;#&lt;/a&gt; 3  hexo&lt;/h4&gt;
 &lt;p&gt;第一步是安装 Hexo 环境：&lt;/p&gt;
@@ -34,11 +34,11 @@
 &lt;p&gt;先需要安装 &lt;code&gt;hexo-deployer-git&lt;/code&gt;  插件，这样我们才能把生成的 &lt;code&gt;public&lt;/code&gt;  文件夹部署到 Github 或者其他代码托管平台。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm install hexo-deployer-git --save
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;下面你需要打开根目录，然后在这个目录下找到站点配置文件 &lt;code&gt;_config.yml&lt;/code&gt; （如下图左）。并且打开这个文件，进行编辑。&lt;br /&gt;
-&amp;lt;td&amp;gt;&lt;br /&gt;
-&amp;lt;p&amp;gt;!()[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zMS52aWthLmNuL3NwYWNlLzIwMjMvMDMvMTgvZWEwOTYxNDUzMzUyNDM3ODg0ZDMyZjYwMjBmMTA3MTk=&#34;&gt;https://s1.vika.cn/space/2023/03/18/ea0961453352437884d32f6020f10719&lt;/span&gt;]&amp;lt;p/&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;p&amp;gt;!()[&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zMS52aWthLmNuL3NwYWNlLzIwMjMvMDMvMTgvNTFmYTdmOTc1ZGJkNDI2OGI1OTM2YTQ3NTM5YjU5ZmY=&#34;&gt;https://s1.vika.cn/space/2023/03/18/51fa7f975dbd4268b5936a47539b59ff&lt;/span&gt;]&amp;lt;p/&amp;gt;&lt;br /&gt;
-&amp;lt;/td&amp;gt;&lt;br /&gt;
+&lt;p&gt;下面你需要打开根目录，然后在这个目录下找到站点配置文件 &lt;code&gt;_config.yml&lt;/code&gt; （如下图左）。并且打开这个文件，进行编辑。&lt;/p&gt;
+&lt;p&gt;&amp;lt;td&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/18/ea0961453352437884d32f6020f10719&#34; alt=&#34;&#34; /&gt;&amp;lt;p/&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;p&amp;gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/18/51fa7f975dbd4268b5936a47539b59ff&#34; alt=&#34;&#34; /&gt;&amp;lt;p/&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/td&amp;gt;&lt;br /&gt;
  在站点配置文件内 找到 deploy 这一行代码，按照以下的格式修改即可&lt;br /&gt;
  deploy:&lt;br /&gt;
 type: git&lt;br /&gt;
