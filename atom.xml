@@ -8,7 +8,208 @@
         <id>https://www.chule57zsm.top/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%973/</id>
         <title>博客搭建日志3</title>
         <link rel="alternate" href="https://www.chule57zsm.top/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%973/"/>
-        <content type="html"></content>
+        <content type="html">&lt;h1 id=&#34;主题配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主题配置&#34;&gt;#&lt;/a&gt; 主题配置&lt;/h1&gt;
+&lt;p&gt;篇文章将带领你配置一个心仪的主题&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大部分主题设置都是一样的，但也存在少数&lt;/p&gt;
+&lt;p&gt;本文章将会使用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92b2xhbnRpcy5qcy5vcmcv&#34;&gt; Volantis&lt;/span&gt; 主题，从而达到较高的普遍性，通过配置这种复杂的主题，让大家可以适应几乎所有主题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下是此次教程的主题相关链接&lt;/p&gt;
+&lt;p&gt;主题演示网站：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92b2xhbnRpcy5qcy5vcmcv&#34;&gt;https://volantis.js.org/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;主题的 github 地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3ZvbGFudGlzLXgvaGV4by10aGVtZS12b2xhbnRpcy8=&#34;&gt;https://github.com/volantis-x/hexo-theme-volantis/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;主题配置文档：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92b2xhbnRpcy5qcy5vcmcvdjUvZ2V0dGluZy1zdGFydGVkLw==&#34;&gt;https://volantis.js.org/v5/getting-started/&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ps：所有的主题都会包含上面提到的三个部分，即主题的 &lt;code&gt;演示网站&lt;/code&gt; 、 &lt;code&gt;github地址&lt;/code&gt; 、 &lt;code&gt;配置文档&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;hexo 的所有主题都可以在官网找到：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=&#34;&gt;Themes | Hexo&lt;/span&gt;，点击图片就可以查看主题的演示网站，点击主题名字就可以进入主题的 github 地址&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/7474db2d2d2842afaf60739f820b1ff7&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;提前看一下最终成品&lt;/p&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/cd1af66b14a14b2d9640de6206d54d1f&#34; alt=&#34;&#34; /&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/5f2f8b803b8c4729ad1b5d83c88afeab&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;接下来的步骤 需要理解一个文件名字 _config.yml&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/57ab4c17e39c4447bd94ab5fb3d0bfc1&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;_config.yml 是什么:  _config.yml 是配置文件 在这个文件里可以 配置站点名字等等 但是首要前提是有编译软件，推荐 [visuals](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92aXN1YWxzdHVkaW8ubWljcm9zb2Z0LmNvbS96aC1oYW5zLw==&#34;&gt;Visual Studio: 面向软件开发人员和 Teams 的 IDE 和代码编辑器 (microsoft.com)&lt;/span&gt;) 进行后期配置修改&lt;/p&gt;
+&lt;p&gt;一般会在主题配置文件里面配置，但 volantis 是在站点配置文件配置，大家只要浏览一下主题配置文件就知道了&lt;/p&gt;
+&lt;p&gt;我们在站点配置文件下，加上一下一段即可&lt;/p&gt;
+&lt;h6 id=&#34;1站点标题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1站点标题&#34;&gt;#&lt;/a&gt; 1. 站点标题&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;title: my blog
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h6 id=&#34;2站点图标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2站点图标&#34;&gt;#&lt;/a&gt; 2. 站点图标&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;站点图标指的是标签页上的图标&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;favicon: 这里是图标链接&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更多图标可以到阿里巴巴的图标库里面下载：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuaWNvbmZvbnQuY24v&#34;&gt;https://www.iconfont.cn/&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;站点作者&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PLAINTEXT
+author: 作者名
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;站点描述&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PLAINTEXT
+description: &#39;站点的描述&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;按照演示 (&lt;strong&gt;上文引用的配置文档链接里有教以后想要更换主题什么的都需要看这个&lt;/strong&gt;) 把主题主题修改成了 volantis&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：目前最新版的 hexo 支持在博客根目录下面创建主题配置文件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;只需要在博客根目录的  &lt;code&gt;_config.yml&lt;/code&gt;  文件旁边新建一个文件：  &lt;code&gt;_config.volantis.yml&lt;/code&gt;  ，这个文件中的配置信息优先级高于主题文件夹中的配置文件。&lt;/p&gt;
+&lt;p&gt;这样的好处就是不用担心因为主题配置文件过长导致频繁报错&lt;/p&gt;
+&lt;p&gt;后文如果没有特别强调，提到的主题配置文件都默认是根目录的  &lt;code&gt;_config.volantis.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/0e93ee7990a84b868cf9f08da0d472a5&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-导航栏的设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-导航栏的设置&#34;&gt;#&lt;/a&gt; 3. 导航栏的设置&lt;/h2&gt;
+&lt;p&gt;所有的主题都会有导航栏设置，volantis 的配置直接在 &lt;code&gt;主题配置文件&lt;/code&gt; 加入下面字段即可&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PLAINTEXT
+# 注意事项：建议规范全站路径 URL 最后带一个 &amp;quot;/&amp;quot; 例如 &amp;quot;about/&amp;quot;
+navbar:
+  visiable: auto # always, auto
+  logo: # choose [img] or [icon + title]
+    img: volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    icon:
+    title:
+  menu:
+    - name: 主页
+      icon: fa-solid fa-rss
+      url: /
+    - name: 分类
+      icon: fa-solid fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fa-solid fa-tags
+      url: tags/
+    - name: 归档
+      icon: fa-solid fa-archive
+      url: archives/
+    - name: 友链
+      icon: fa-solid fa-link
+      url: friends/
+    - name: 关于
+      icon: fa-solid fa-info-circle
+      url: about/
+  search: Search...   # Search bar placeholder
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;同时 volantis 支持菜单嵌套，也就是二级菜单，这里不做演示，请大家自己去文档探索&lt;/p&gt;
+&lt;h6 id=&#34;想修改图标怎么办&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#想修改图标怎么办&#34;&gt;#&lt;/a&gt; 想修改图标怎么办&lt;/h6&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​       几乎所有主题都使用了 font awesome 的图标，如果你想更换图标，访问官网即可&lt;/p&gt;
+&lt;p&gt;​        Font Awesome : &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mb250YXdlc29tZS5jb20vaWNvbnMv&#34;&gt;https://fontawesome.com/icons/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;​      点击想要的图标，然后注意绿色部分的字体，复制下来&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/8743d18860fb44ec81bb315c7ccecbb0&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+粘贴到 icon 这个地方即可&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;如果预览的时候，发现图标是空白的，换一个就行了&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/d866b9f496954d93bfe474d717dde39e&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h6 id=&#34;效果图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#效果图&#34;&gt;#&lt;/a&gt; 效果图&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/938329a0c5294ade994831f8a86c2266&#34; alt=&#34;&#34; /&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;4-创建基础的四个页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-创建基础的四个页面&#34;&gt;#&lt;/a&gt; 4. 创建基础的四个页面&lt;/h2&gt;
+&lt;p&gt;当我们配置好了主题的导航栏，打开某一个页面时，你会发现一片空白&lt;/p&gt;
+&lt;p&gt;所有的主题都包含 &lt;code&gt;分类-标签-友链-关于&lt;/code&gt; 四个页面，但它们默认是不存在的&lt;/p&gt;
+&lt;p&gt;这四个页面都存在于博客根目录下的 source 文件夹当中，与_posts 在一起&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/f737163a1b234136ac73123d16db7415&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;41如何创建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#41如何创建&#34;&gt;#&lt;/a&gt; 4.1 如何创建&lt;/h3&gt;
+&lt;p&gt;只需要执行以下几个命令即可创建&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SHELL
+hexo new page categories
+hexo new page tgas
+hexo new page friends
+hexo new page about
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;42-写入基本内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#42-写入基本内容&#34;&gt;#&lt;/a&gt; 4.2 写入基本内容&lt;/h3&gt;
+&lt;p&gt;尽管现在你已经可以访问，但页面仍然空白，因为我们没有写入 &lt;code&gt;font-matter&lt;/code&gt; ，接下来教你写入&lt;/p&gt;
+&lt;p&gt;你无需担心太过复杂，只需要跟着复制粘贴即可&lt;/p&gt;
+&lt;h4 id=&#34;423友链页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#423友链页面&#34;&gt;#&lt;/a&gt; 4.2.3 友链页面&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;PLAINTEXT
+---  
+layout: friends # 必须  
+title: 我的朋友们 # 可选，这是友链页的标题  
+---  
+  
+这里写友链上方的内容。  
+  
+&amp;lt;!-- more --&amp;gt;  
+  
+这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后在 &lt;code&gt;source&lt;/code&gt;  目录下创建 &lt;code&gt;_data&lt;/code&gt;  文件夹，在 &lt;code&gt;_data&lt;/code&gt;  目录下创建文件 `friends.yml&lt;/p&gt;
+&lt;p&gt;写入以下内容&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PLAINTEXT
+- group: # 分组标题
+  description:  # 分组描述
+  items:
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
+      screenshot: # 截图
+      keywords: # 关键词
+      description: # 描述
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
+      screenshot: # 截图
+      keywords: # 关键词
+      description: # 描述
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后在 hexo 命令框输入如预览命令 (hexo s) 即可查看效果&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;6-封面图封面信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-封面图封面信息&#34;&gt;#&lt;/a&gt; 6. 封面图 + 封面信息&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/27/014e7c25fc1142b993b749587c49254f&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;推荐你到一些壁纸网站找封面图，注意下载后记得 &lt;code&gt;压缩图片&lt;/code&gt; 否则会极大拖慢网站速度&lt;/p&gt;
+&lt;p&gt;壁纸网站安利：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93YWxsaGF2ZW4uY2Mv&#34;&gt;https://wallhaven.cc/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;免费压缩图片：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucGljZGlldC5jb20vemgtY24=&#34;&gt;https://www.picdiet.com/zh-cn&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;主题配置文件&lt;/code&gt; 中插入以下内容（具体内容自己修改）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cover:
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter &#39;cover: true&#39;
+  background: https://s1.ax1x.com/2022/07/15/j4Pgr4.jpg #这是背景图片
+  title: &#39;进阶版演示站点&#39;
+  subtitle: &#39;&#39;
+  search: A Wonderful Theme for Hexo # search bar placeholder
+ #下面的icon和img二选一，icon使用fontawesome图标，img则使用图标外链
+  features:
+    - name: 文档
+      icon: fa-solid fa-book
+      img: #
+      url: https://volantis.js.org/v5/theme-settings/
+    - name: 源码
+      icon: fa-solid fa-code
+      img: #
+      url: https://github.com/volantis-x/hexo-theme-volantis/
+    - name: 帮助
+      icon: fa-solid fa-question
+      img: #
+      url: https://volantis.js.org/faqs/
+    - name: 打赏UP
+      icon: fa-solid fa-dollar
+      url: https://s1.ax1x.com/2022/07/15/j4pl5V.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：初乐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;文章链接博客搭建日志后篇籍转载请注明-本文网址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文章链接博客搭建日志后篇籍转载请注明-本文网址&#34;&gt;#&lt;/a&gt; 文章链接：&lt;a href=&#34;https://www.chule57zsm.top/2023/03/20/&#34;&gt;博客搭建日志后篇籍 /&lt;/a&gt;&lt;br /&gt;
+ 转载请注明：本文网址&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
         <updated>2023-04-07T14:11:10.000Z</updated>
     </entry>
     <entry>
