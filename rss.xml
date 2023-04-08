@@ -5,54 +5,8 @@
         <link>https://www.chule57zsm.top</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sat, 08 Apr 2023 14:55:09 +0800</pubDate>
-        <lastBuildDate>Sat, 08 Apr 2023 14:55:09 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://www.chule57zsm.top/HTML%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/</guid>
-            <title>HTML基本命令总结</title>
-            <link>https://www.chule57zsm.top/HTML%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/</link>
-            <pubDate>Sat, 08 Apr 2023 14:55:09 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;html基本命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html基本命令&#34;&gt;#&lt;/a&gt; HTML 基本命令&lt;/h1&gt;
-&lt;p&gt;&amp;lt;h&amp;gt; 我是级标题 &amp;lt;/h&amp;gt;:&amp;lt;h&amp;gt;&amp;lt;/h&amp;gt;=head 的缩写    分级的意义：为了使网页更有语义化  分为 6 个等级&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h1&amp;gt; 我是 1 级标题 &amp;lt;./h1&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h2&amp;gt; 我是 2 级标题 &amp;lt;./h2&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h3&amp;gt; 我是 3 级标题 &amp;lt;./h3&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h4&amp;gt; 我是 4 级标题 &amp;lt;./h4&amp;gt;: 会独占一行&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h5&amp;gt; 我是 5 级标题 &amp;lt;./h5&amp;gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;.h6&amp;gt; 我是 6 级标题 &amp;lt;./h6&amp;gt;             &lt;em&gt;&lt;strong&gt;没有。才能生成标题 这里只是因为显示问题加入&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;写代码之前需要先保存一下&lt;/p&gt;
-&lt;p&gt;段落标签 &amp;lt;P&amp;gt;&amp;lt;/P&amp;gt;&lt;/p&gt;
-&lt;p&gt;换行标签 &amp;lt;br/&amp;gt;: 是 break 的缩写意思是 打断 。换行&lt;/p&gt;
-&lt;p&gt;加粗标签 &amp;lt;strong&amp;gt; &amp;lt;/strong&amp;gt;: 加粗非标题文字的方法&lt;/p&gt;
-&lt;p&gt;&amp;lt;b&amp;gt; &amp;lt;/b&amp;gt; 同上方一样也是加粗标签  推荐优先使用 strong 加粗方法&lt;/p&gt;
-&lt;p&gt;倾斜标签 &amp;lt;em&amp;gt; &amp;lt;/em&amp;gt;. &amp;lt;i&amp;gt;&amp;lt;/i &amp;gt; 两个标签都是可以变倾斜的推荐优先使用 em 倾斜方法&lt;/p&gt;
-&lt;p&gt;删除线标签 &amp;lt;del&amp;gt;&amp;lt;/del&amp;gt;  &amp;lt;S&amp;gt;&amp;lt;/S &amp;gt; 两个都是删除线标签推荐优先使用 del&lt;/p&gt;
-&lt;p&gt;下划线命令 &amp;lt;ins&amp;gt;&amp;lt;/ins&amp;gt; &amp;lt;u&amp;gt;&amp;lt;/u &amp;gt; 两个都是下滑线命令推荐优先使用 ins&lt;/p&gt;
-&lt;p&gt;盒子标签  &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;  &amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
-&lt;p&gt;div 是 division 的缩写 表示分割划区的意思一行只能有一个 div&lt;/p&gt;
-&lt;p&gt;span 可以理解为跨距并不会独占一行&lt;/p&gt;
-&lt;p&gt;div 可以理解为大盒子 span 可以理解为小盒子&lt;/p&gt;
-&lt;p&gt;图片标签  &amp;lt;img&amp;gt; 需要代码命令结合使用  &amp;lt;.img src=&amp;quot;路径或链接&amp;quot;&amp;gt;               &lt;em&gt;&lt;strong&gt;没有里面的点才可以&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;.img src=&amp;quot;路径或链接&amp;quot; title&amp;gt; 加 title 可以在点击图片时出现文字                   &lt;em&gt;&lt;strong&gt;这里也是&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;路径或链接&amp;quot;alt = 图片加载失败 /&amp;gt;  加 alt 可以在加载图片失败的时候显示文字&lt;/p&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;路径或链接&amp;quot;width=&amp;quot;&amp;quot;&amp;gt;  width: 给设置图像的宽度&lt;/p&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;路径或链接&amp;quot;height=&amp;quot;&amp;quot;&amp;gt; height: 给图像设置高度&lt;/p&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;路径或链接&amp;quot;border=&amp;quot;&amp;quot;&amp;gt; borde: 设置图像边框&lt;/p&gt;
-&lt;p&gt;/  图像位于下一级路径需要添加的符号    列示  D 盘 / 新建文件夹 / 图片 1&lt;/p&gt;
-&lt;p&gt;../ 图像位于上一级路径所需符号   列示 D 盘 / 图片 / 文件夹      使用方式  D 盘 ../ 图片 /&lt;/p&gt;
-&lt;p&gt;&amp;lt;a&amp;gt; &amp;lt;/a&amp;gt; : a 是超链接的意思   跳转出去 加入属性词 href 如  &amp;lt;a href:&amp;quot;链接&amp;quot; 跳转过去地方名字 &amp;gt;  &amp;lt;/a&amp;gt;&lt;/p&gt;
-&lt;p&gt;blank: 加如这个命令词 可以在原有网页保留情况下打开新网页  不加则原来网页点击后原地跳转网页&lt;br /&gt;
-使用写作            &amp;lt;a href:&amp;quot;链接&amp;quot; 跳转过去地方名字 &amp;quot;target=&amp;quot;_blank&amp;quot;&amp;gt; 名字 &amp;lt;/a&amp;gt;&lt;/p&gt;
-&lt;p&gt;#号 如果页面没有计划或者没有做完可以使用＃号  #代表空链接使用方法如下&lt;br /&gt;
- &amp;lt;a href:&amp;quot;#&amp;quot;  跳转过去地方名字&amp;gt;  &amp;lt;/a&amp;gt;&lt;/p&gt;
-&lt;p&gt;点击图片跳转格式  &amp;lt;/a href=&amp;quot;链接地址&amp;quot;&amp;gt;  &amp;lt;/img src=&amp;quot;路径或链接&amp;quot;&amp;gt; &amp;lt;/a&amp;gt;&lt;/p&gt;
-&lt;p&gt;同意页面内跳转命令     &amp;lt;a h0ref=&amp;quot;# 自命名&amp;quot;&amp;gt;  跳转处名字      &amp;lt;h30 id=&amp;quot;自命名&amp;quot;&amp;gt; 被跳转处名字 &amp;lt;/h3&amp;gt;               &lt;em&gt;&lt;strong&gt;这里代码没有 0 为了展示加的&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;ctrl+/ 可以直接创建 &amp;lt;!--  --&amp;gt; 命令：注释标签 可以让注释不显示到网址上&lt;/p&gt;
-&lt;p&gt;&amp;amp;nbsp 空格命令 一个词站一个空格  列示 &amp;amp; nbsp；&amp;amp;nbsp；&amp;amp;nbsp 就是三个空格注意要用分号隔开&lt;/p&gt;
-&lt;p&gt;4&amp;amp;l1t;  &amp;amp;1gt; 是大于号 和小于号   不能直接输入 &amp;lt; &amp;gt;           &lt;em&gt;这里的符号没有数字&lt;/em&gt;为了展示才加&lt;/p&gt;
-&lt;hr /&gt;
- ]]></description>
-        </item>
+        <pubDate>Fri, 07 Apr 2023 22:11:10 +0800</pubDate>
+        <lastBuildDate>Fri, 07 Apr 2023 22:11:10 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://www.chule57zsm.top/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%973/</guid>
             <title>博客搭建日志3</title>
