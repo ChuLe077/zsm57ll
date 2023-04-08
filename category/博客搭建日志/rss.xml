@@ -223,7 +223,7 @@ title: 我的朋友们 # 可选，这是友链页的标题
             <description><![CDATA[ &lt;h1 id=&#34;博客搭建日志后篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客搭建日志后篇&#34;&gt;#&lt;/a&gt; 博客搭建日志后篇&lt;/h1&gt;
 &lt;h5 id=&#34;1-域名搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-域名搭建&#34;&gt;#&lt;/a&gt; 1 域名搭建&lt;/h5&gt;
 &lt;p&gt;域名一般有两种  这里只教其中一种更容易完成搭建的方法；&lt;strong&gt;购买域名&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;域名大部分选择 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZC50ZW5jZW50LmNvbS8=&#34;&gt;腾讯云&lt;/span&gt;) 和 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYWxpeXVuLmNvbS8=&#34;&gt;阿里云&lt;/span&gt;)    &lt;em&gt;[这里推荐先购买 因为实名审核需要时间]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;域名大部分选择 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbG91ZC50ZW5jZW50LmNvbS8=&#34;&gt;腾讯云&lt;/span&gt;和 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYWxpeXVuLmNvbS8=&#34;&gt;阿里云&lt;/span&gt;   &lt;em&gt;[这里推荐先购买 因为实名审核需要时间]&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;vercel托管&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vercel托管&#34;&gt;#&lt;/a&gt; Vercel 托管&lt;/h2&gt;
 &lt;p&gt;为什么使用 Vercel 托管网站？就我的个人使用体验而言，优点有以下几点：&lt;/p&gt;
 &lt;ul&gt;
