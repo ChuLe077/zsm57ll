@@ -331,7 +331,7 @@ The key&#39;s randomart image is:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(语言什么都没有就对了)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;完成之后下一步&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;复制自己的仓库地址 (点击标记红色的区域 如何复制蓝色框里的链接 /(不是图片里的 是你自己刚刚创建的仓库的)&lt;/p&gt;
+&lt;p&gt;复制自己的仓库地址 点击标记红色的区域 如何复制蓝色框里的链接 /(不是图片里的 是你自己刚刚创建的仓库的)&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://s1.vika.cn/space/2023/03/19/bb430452240b41f8b378c3a06893c4d7&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
 然后打开配置文件_config.yml  (在一开始放博客的专属文件夹哪里)&lt;/p&gt;
 &lt;p&gt;在最下边修改成这样 (如下图)  把刚刚复制的链接粘贴进去&lt;/p&gt;
